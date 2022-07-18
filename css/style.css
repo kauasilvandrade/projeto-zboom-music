@@ -1,0 +1,165 @@
+/* PERMITIR ACENTUAÇÕES NO SITE */
+@charset "UTF-8";
+
+/* PALETA DE CORES */
+:root {
+    
+    --cor0: #fff;
+    --cor1: #ED145B;
+    --cor2: #1E1E1E;
+    --cor3: #141414;
+    --cor4: #040404;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+* {}
+
+/* CORPO */
+body, html {}
+
+.container {}
+
+/* CABEÇALHO */
+.cabecalho {}
+
+.cabecalho .img-serch-position {}
+
+.cabecalho .img-serch-position .img-box {}
+
+.cabecalho .img-serch-position .img-box img {}
+
+.cabecalho .img-serch-position .input-box {}
+
+.cabecalho .img-serch-position .input-box input {}
+
+.cabecalho .img-serch-position .input-box input button {}
+
+.cabecalho .img-serch-position .input-box input button img {}
+
+/* MENU */
+.menu {}
+
+.menu .lista-links {}
+
+.menu .lista-links .item-link {}
+
+.menu .lista-links #item-background {}
+
+.menu .lista-links .item-link a {}
+
+/* SEÇÃO SLIDE */
+.secao-slide {}
+
+.secao-slide .img-box {}
+
+.secao-slide .img-box img {}
+
+/* CONTEÚDO PRINCIPAL */
+.conteudo {}
+
+/* SEÇÃO ANÚNCIOS */
+.conteudo .secao-anuncios {}
+
+.conteudo .secao-anuncios .anuncio {}
+
+.conteudo .secao-anuncios .anuncio h2 {}
+
+.conteudo .secao-anuncios .anuncio p {}
+
+.conteudo .secao-anuncios .anuncio a {}
+
+/* SEÇÃO DESTAQUE */
+.conteudo .secao-destaque {}
+
+/* BLOG */
+.conteudo .secao-destaque .blog {}
+
+.conteudo .secao-destaque .blog h2 {}
+
+.conteudo .secao-destaque .blog .artigo {}
+
+.conteudo .secao-destaque .blog .artigo .img-box {}
+
+.conteudo .secao-destaque .blog .artigo .img-box img {}
+
+.conteudo .secao-destaque .blog .artigo .descricao {}
+
+.conteudo .secao-destaque .blog .artigo .descricao h3 {}
+
+.conteudo .secao-destaque .blog .artigo .descricao h3 a {}
+
+.conteudo .secao-destaque .blog .artigo .descricao aside {}
+
+.conteudo .secao-destaque .blog .artigo .descricao aside a {}
+
+.conteudo .secao-destaque .blog .artigo .descricao p {}
+
+/* ALBUMS */
+.conteudo .secao-destaque {}
+
+.conteudo .secao-destaque .albums-envents {}
+
+.conteudo .secao-destaque .albums-envents h2 {}
+
+.conteudo .secao-destaque .albums-envents .albums {}
+
+.conteudo .secao-destaque .albums-envents .albums .img-box {}
+
+.conteudo .secao-destaque .albums-envents .albums .img-box img {}
+
+/* EVENTS */
+.conteudo .secao-destaque .albums-envents .events {}
+
+.conteudo .secao-destaque .albums-envents .events .lista-events {}
+
+.conteudo .secao-destaque .albums-envents .events .lista-events .item-events a {}
+
+/* RODAPÉ */
+.rodape {}
+
+.rodape .lista-sobre-nos {}
+
+.rodape .lista-sobre-nos .item {}
+
+.rodape .lista-sobre-nos .item h2 {}
+
+/* ITEM 1 */
+.rodape .lista-sobre-nos #item-1 {}
+
+.rodape .lista-sobre-nos #item-1 p {}
+
+
+/* ITEM 2 */
+.rodape .lista-sobre-nos #item-2 {}
+
+.rodape .lista-sobre-nos #item-2 .lista-post {}
+
+.rodape .lista-sobre-nos #item-2 .lista-post .item-post {}
+
+.rodape .lista-sobre-nos #item-2 .lista-post .item-post a {}
+
+
+/* ITEM 3 */
+.rodape .lista-sobre-nos #item-3 {}
+
+.rodape .lista-sobre-nos #item-3 .lista-album {}
+
+.rodape .lista-sobre-nos #item-3 .lista-album .item-album  {}
+
+.rodape .lista-sobre-nos #item-3 .lista-album .item-album a {}
+
+
+/* ITEM 4 */
+.rodape .lista-sobre-nos #item-4 {}
+
+.rodape .lista-sobre-nos #item-4 .lista-contato {}
+
+.rodape .lista-sobre-nos #item-4 .lista-contato .item-contato {}
+
+.rodape .lista-sobre-nos #item-4 .lista-contato .item-contato a {}
+
+.rodape .creditos {}
+
+.rodape .creditos p {}
+
+.rodape .creditos p a{}
