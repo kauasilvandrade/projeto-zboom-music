@@ -597,3 +597,16 @@ body, html {
     }
 
 } 
+
+@media screen and (max-width: 430px) {
+    .menu .check-btn .mark {
+        right: 5rem;
+        top: 14.4rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .menu .check-btn .mark {
+        top: 13.9rem
+    }
+}
