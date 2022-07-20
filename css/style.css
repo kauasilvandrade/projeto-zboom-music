@@ -124,7 +124,7 @@ body, html {
     padding: 0.9rem 0;
 }
 
-.menu .lista-links #item-background {
+.menu .lista-links .item-link #item-background {
     background-color: var(--cor1);
 }
 
@@ -603,10 +603,26 @@ body, html {
         right: 5rem;
         top: 14.4rem;
     }
+
+    .menu .check-btn .mark-off {
+        top: 14.3rem;
+    }
+
+    .menu .lista-links {
+        top: 13.4rem;
+    }
 }
 
 @media screen and (max-width: 370px) {
     .menu .check-btn .mark {
         top: 13.9rem
+    }
+
+    .menu .check-btn .mark-off {
+        top: 13.8rem;
+    }
+    
+    .menu .lista-links {
+        top: 12.9rem;
     }
 }
