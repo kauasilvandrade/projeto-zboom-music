@@ -1,0 +1,82 @@
+/* PERMITIR ACENTUAÇÕES NO SITE */
+@charset "UTF-8";
+
+/* PALETA DE CORES */
+:root {
+    
+    --cor0: #ffffff;
+    --cor1: #F36A97;
+    --cor2: #ED145B;
+    --cor3: #1E1E1E;
+    --cor4: #141414;
+    --cor5: #040404;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body, html {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/pattern29.png);
+}
+
+/* FORMULÁRIO */
+form {
+    margin-top: 2.5rem;
+}
+
+form .grupo-inputs {}
+
+form .grupo-inputs p {
+    color: #959595;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+form .grupo-inputs .input-box {
+    margin-bottom: 1rem;
+}
+
+form .grupo-inputs .input-box input {
+    outline: none;
+    border: 2px solid #999999;
+    padding: 0.5rem 6rem 0.5rem 0.5rem;
+}
+
+form .grupo-inputs .input-box label {
+    color: #959595;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+form .grupo-inputs .text-are-box {}
+
+form .grupo-inputs .text-are-box textarea {
+    width: 100%;
+    outline: none;
+    padding: 0.5rem 0 0 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #999999;
+}
+
+form .botao-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .botao-box button {
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    border: 2px solid #999999;
+    background-image: linear-gradient(to top, #efefef, #ddd);
+}
+
+form .botao-box button:hover {
+    background-image: linear-gradient(to top, #eee, #ccc);
+}

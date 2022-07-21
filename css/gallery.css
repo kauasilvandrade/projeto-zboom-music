@@ -69,3 +69,35 @@ body, html {
 .conteudo .lista-galeria .item-galeria h2 a:hover {
     color: var(--cor2);
 }
+
+@media screen and (max-width: 960px) {
+    .conteudo {
+        max-width: 760px;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .conteudo .lista-galeria .item-galeria {
+        width: 12em;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .conteudo .lista-galeria {
+        justify-content: space-between;
+    }
+
+    .conteudo .lista-galeria .item-galeria {
+        width: 14em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .conteudo .lista-galeria {
+        justify-content: center;
+    }
+
+    .conteudo .lista-galeria .item-galeria {
+        width: 16em;
+    }
+}
