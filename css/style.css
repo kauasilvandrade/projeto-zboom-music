@@ -498,7 +498,7 @@ body, html {
 
     .menu .check-btn .mark {
         display: block;
-        right: 7rem;
+        right: 2rem;
         font-size: 1.6em;
         top: 14.7rem;
         color: white;
@@ -601,7 +601,6 @@ body, html {
 
 @media screen and (max-width: 430px) {
     .menu .check-btn .mark {
-        right: 5rem;
         top: 14.4rem;
     }
 
