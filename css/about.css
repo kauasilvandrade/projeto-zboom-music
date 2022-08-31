@@ -70,13 +70,13 @@ form .botao-box {
     justify-content: flex-end;
 }
 
-form .botao-box button {
+form .botao-box input {
     outline: none;
     padding: 0.5rem 1.8rem;
     border: 2px solid #999999;
     background-image: linear-gradient(to top, #efefef, #ddd);
 }
 
-form .botao-box button:hover {
+form .botao-box input:hover {
     background-image: linear-gradient(to top, #eee, #ccc);
 }
