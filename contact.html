@@ -118,8 +118,8 @@
 
                     <!-- FORMULÁRIO -->
                     <div class="formulario">
-                        <form action="#">
-        
+                        <form action="#" method="post" autocomplete="on">
+
                             <div class="grupo-inputs">
 
                                 <p>Your email address will not be published. Required fields are marked</p>
@@ -127,7 +127,7 @@
                                 <!-- INPUTS -->
                                 <div class="input-box">
 
-                                    <input type="text" id="name" required>
+                                    <input type="text" id="name" name="name" required minlength="8" maxlength="20" autocomplete="username">
 
                                     <label for="name">
 
@@ -139,7 +139,7 @@
 
                                 <div class="input-box">
 
-                                    <input type="email" id="email" required>
+                                    <input type="email" id="email" name="email" required autocomplete="email">
 
                                     <label for="email">
 
@@ -151,7 +151,7 @@
 
                                 <div class="input-box">
 
-                                    <input type="url" id="url" required>
+                                    <input type="url" id="url" name="url" required autocomplete="url">
 
                                     <label for="url">
 
@@ -172,7 +172,7 @@
                             <!-- BOTÃO -->
                             <div class="botao-box">
 
-                                <button>Submit</button>
+                                <input type="submit" value="Submit">
 
                             </div>
 
