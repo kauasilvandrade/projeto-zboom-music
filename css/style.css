@@ -615,3 +615,9 @@ body, html {
     }
 
 } 
+
+@media screen and (max-width: 430px) {
+    .menu .lista-links {
+        top: 16.4rem;
+    }
+}
