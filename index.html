@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zBoomMusic Free Html5 Responsive Template</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/ff8333465c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -17,30 +16,25 @@
         <!-- CONTAINER -->
         <div class="container">
 
-            <!-- POSICIONAMENTO DE IMG + BARRA DE PESQUISA -->
-            <div class="img-serch-position">
+            <!-- IMAGEM -->
+            <figure class="img-box">
 
-                <!-- IMAGEM -->
-                <figure class="img-box">
+                <img src="imagens/logo.png" alt="Logo zBoomMusic">
 
-                    <img src="imagens/logo.png" alt="Logo zBoomMusic">
+            </figure>
 
-                </figure>
+            <!-- BARRA DE PESQUISA -->
+            <div class="input-box">
 
-                <!-- BARRA DE PESQUISA -->
-                <div class="input-box">
+                <!-- INPUT BARRA DE PESQUISA -->
+                <input type="search" placeholder="Search...">
 
-                    <!-- INPUT BARRA DE PESQUISA -->
-                    <input type="search" placeholder="Search...">
+                <!-- BOTÃO DO INPUT -->
+                <button>
 
-                    <!-- BOTÃO DO INPUT -->
-                    <button>
+                    <img src="imagens/button-search.png" alt="Imagem de ícone do botão">
 
-                        <img src="imagens/button-search.png" alt="Imagem de ícone do botão">
-
-                    </button>
-
-                </div>
+                </button>
 
             </div>
 
@@ -56,15 +50,11 @@
             <!-- BOTÃO MENU MOBILE -->
             <h2>Menu</h2>
 
-            <input type="checkbox" id="btn">
+            <button class="btn-menu">
 
-            <label for="btn" class="check-btn">
+                <span class="hamburguer"></span>
 
-                <i class="fa-solid fa-caret-down mark"></i>
-
-                <i class="fa-solid fa-xmark mark-off"></i>
-
-            </label>
+            </button>
 
             <!-- LISTA DE LINKS -->
             <ul class="lista-links">
@@ -490,5 +480,8 @@
         <p>Copyright © 2013 - Designed by <a href="https://www.zerotheme.com/" rel="external" target="_blank">ZEROTHEME</a></p>
 
     </footer>
+
+    <script src="js/script.js"></script>
+    
 </body>
 </html>

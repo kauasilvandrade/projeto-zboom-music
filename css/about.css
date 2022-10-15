@@ -80,3 +80,9 @@ form .botao-box input {
 form .botao-box input:hover {
     background-image: linear-gradient(to top, #eee, #ccc);
 }
+
+@media screen and (max-width: 768px) {
+    .menu .lista-links {
+        top: 17.4rem;
+    }
+}
