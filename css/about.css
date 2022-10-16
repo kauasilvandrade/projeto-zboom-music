@@ -91,4 +91,8 @@ form .botao-box input:hover {
     .menu .lista-links {
         top: 16.4rem;
     }
+
+    form .grupo-inputs .input-box input {
+        width: 100%;
+    }
 }
