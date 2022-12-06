@@ -14,6 +14,8 @@ function menuShow(event) {
     hamburguer.classList.toggle('ativado');
 
     // ACESSIBILIDADE
+    if (event.type == 'touchstart') event.preventDefault();
+
     const ativado = menu.classList.contains('ativado');
 
     if (ativado) {
