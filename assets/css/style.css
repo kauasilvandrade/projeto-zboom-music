@@ -103,7 +103,7 @@ body, html {
 }
 
 /* BOTÃO MOBILE */
-.menu .btn-menu {
+.menu .botao-menu {
     display: none;
 }
 
@@ -486,21 +486,21 @@ body, html {
         display: block;
     }
 
-    .menu .btn-menu {
+    .menu .botao-menu {
         display: block;
         background-color: transparent;
         border: transparent;
         cursor: pointer;
     }
     
-    .menu .btn-menu .hamburguer {
+    .menu .botao-menu .hamburguer {
         width: 35px;
         border-top: 2px solid white;
         display: block;
         transition: .3s;
     }
 
-    .menu .btn-menu .hamburguer::before {
+    .menu .botao-menu .hamburguer::before {
         content: '';
         display: block;
         width: 35px;
@@ -510,7 +510,7 @@ body, html {
         transition: .3s;
     }
 
-    .menu .btn-menu .hamburguer::after {
+    .menu .botao-menu .hamburguer::after {
         content: '';
         display: block;
         width: 35px;
@@ -521,15 +521,15 @@ body, html {
     }
 
     /* CLASSE QUE VAI SER ATIVADA COM JAVASCRIPT */
-    .btn-menu .hamburguer.ativado {
+    .botao-menu .hamburguer.ativado {
         border-top: transparent;
     }
 
-    .btn-menu .hamburguer.ativado::before {
+    .botao-menu .hamburguer.ativado::before {
         transform: rotate(135deg);
     }
 
-    .btn-menu .hamburguer.ativado::after {
+    .botao-menu .hamburguer.ativado::after {
         transform: rotate(-135deg);
         position: relative;
         top: -9px;
