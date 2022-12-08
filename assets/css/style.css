@@ -37,7 +37,6 @@ body, html {
     max-width: 955px;
     margin: 3rem auto 1rem auto;
     padding: 2.5rem 0;
-    min-height: 9rem;
 }
 
 /* POSICIONAMENTO DE LOGO E BUSCA */
@@ -53,11 +52,10 @@ body, html {
 
 .cabecalho__pesquisa {
     position: relative;
-    margin-top: 0.2rem;
 }
 
 .cabecalho__pesquisa input {
-    padding: 0.6rem 1rem 0.6rem 0.4rem;
+    padding: 0.6rem 0.5rem 0.6rem 0.4rem;
     border: none;
     outline: none;
     border-radius: 3px;
@@ -66,15 +64,19 @@ body, html {
 
 .cabecalho__pesquisa input::placeholder {
     color: var(--cor5);
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .cabecalho__pesquisa button {
     position: absolute;
-    right: 5%;
-    top: 25%;
-    background-color: transparent;
+    right: 0;
+    top: 22%;
+    background-color: white;
     border: none;
     cursor: pointer;
+    padding: 0.2rem;
+    width: 2.5rem;
 }
 
 .cabecalho__pesquisa button img {}
@@ -82,8 +84,7 @@ body, html {
 /* MENU */
 .menu {
     max-width: 955px;
-    padding: 1rem 0;
-    height: 5rem;
+    padding: 1.2rem 0;
     margin: 0 auto;
     background-color: var(--cor2);
     margin-bottom: 1rem;
@@ -96,6 +97,7 @@ body, html {
     text-align: center;
     font-weight: lighter;
     display: none;
+    letter-spacing: 2px;
 }
 
 /* BOTÃO MOBILE */
@@ -107,11 +109,10 @@ body, html {
     list-style: none;
     display: flex;
     gap: 2rem;
-}
-
-.listaLinks__item {
     padding: 0.9rem 0;
 }
+
+.listaLinks__item {}
 
 .listaLinks__item a {
     text-decoration: none;
@@ -138,9 +139,7 @@ body, html {
     margin-bottom: 1rem;
 }
 
-.secaoSlide__imgBox {
-    width: 100%;
-}
+.secaoSlide__imgBox {}
 
 .secaoSlide__imgBox img {
     width: 100%;
@@ -164,7 +163,6 @@ body, html {
 
 .secaoAnuncios__anuncio {
     background-color: var(--cor2);
-    width: 19rem;
     height: 9rem;
     padding: 1em;
 }
@@ -194,10 +192,13 @@ body, html {
 .secaoDestaque {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 /* BLOG */
-.secaoDestaque__blog {}
+.secaoDestaque__blog {
+    flex: 2;
+}
 
 .secaoDestaque h2 {
     font-weight: lighter;
@@ -211,7 +212,6 @@ body, html {
     display: flex;
     background-color: var(--cor5);
     padding: 1rem;
-    width: 37.4rem;
     margin-bottom: 1rem;
     gap: 1rem;
 }
@@ -264,7 +264,9 @@ body, html {
     font-size: 0.9em;
 }
 
-.secaoDestaque__albumsEnvents{} /* ALBUM E EVENTS */
+.secaoDestaque__albumsEnvents{
+    flex: 1;
+} /* ALBUM E EVENTS */
 
 .secaoDestaque__albumsEnvents h2 {}
 
@@ -323,10 +325,11 @@ body, html {
     gap: 2rem;
     margin-bottom: 1.5rem;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .listaSobreNos__item {
-    width: 13rem;
+    flex: 1 1 12rem;
 }
 
 .listaSobreNos__item h2 {
@@ -431,19 +434,10 @@ body, html {
 }
 
 @media screen and (max-width: 960px) {
-
-    .cabecalho, .menu, .secaoSlide, .conteudo, .rodape {
-        max-width: 760px;
-    }
-
+    
     /* SEÇÃO ANÚNCIOS */
     .secaoAnuncios__anuncio {
         height: 10rem;
-    }
-
-    /* SEÇÃO DESTAQUE */
-    .blog__artigo {
-        width: 29.9rem;
     }
 
     /* EVENTS */
@@ -464,18 +458,12 @@ body, html {
         flex-direction: column;
         padding: 0 1rem;
     }
-
-    .cabecalho__imgBox {
+    
+    .cabecalho__imgBox img {
+        width: 100%;
         margin-bottom: 1rem;
     }
 
-    .cabecalho__imgBox img {
-        width: 100%;
-    }
-
-    .menu {
-        height: 4rem;
-    }
     .menu > .container {
         display: flex;
         padding-inline: 1rem;
@@ -545,9 +533,6 @@ body, html {
         text-align: center;
         transition: 0.5s;
         z-index: 2;
-    }
-
-    .listaLinks__item {
         padding: 0;
     }
 
@@ -609,9 +594,9 @@ body, html {
 } 
 
 @media screen and (max-width: 430px) {
-
-    .menu__lista-links {
-        top: 16.4rem;
+    
+    .menu__listaLinks {
+        top: 16.5rem;
     }
 
 }

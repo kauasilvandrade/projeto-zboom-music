@@ -81,19 +81,22 @@ body, html {
 }
 
 @media screen and (max-width: 730px) {
-    .secao-destaque .formulario {
+
+
+    .descricao__formulario {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    form .grupo-inputs .input-box {
+
+    .grupoInputs__inputBox {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    .menu .lista-links {
+    .menu__listaLinks {
         top: 16.4rem;
     }
 }
