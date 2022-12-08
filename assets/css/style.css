@@ -192,7 +192,6 @@ body, html {
 .secaoDestaque {
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap;
 }
 
 /* BLOG */
@@ -417,6 +416,7 @@ body, html {
     display: flex;
     padding: 0.5rem;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .rodapeCreditos p {
@@ -434,7 +434,7 @@ body, html {
 }
 
 @media screen and (max-width: 960px) {
-    
+
     /* SEÇÃO ANÚNCIOS */
     .secaoAnuncios__anuncio {
         height: 10rem;
@@ -557,6 +557,7 @@ body, html {
     .secaoDestaque {
         flex-direction: column;
     }
+    
 
     /* BLOG */
     .blog__artigo {
@@ -581,10 +582,6 @@ body, html {
         list-style: none;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .rodapeCreditos {
-        flex-direction: column;
     }
 
     .rodapeCreditos p {

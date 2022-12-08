@@ -53,7 +53,6 @@ body, html {
 .listaGaleria__itemGaleria {
     background-color: var(--cor5);
     padding: 1.2rem;
-    width: 13.3rem;
     margin-bottom: 2rem;
     flex: 1 1 200px;
 }
@@ -90,26 +89,6 @@ body, html {
 
     /* MENU */
     .menu .menu__listaLinks {
-        top: 16.6rem;
+        top: 15.6rem;
     }
 }    
-    
-@media screen and (max-width: 500px) {
-
-    /* LISTA DA GALERIA */
-    .listaGaleria {
-        justify-content: center;
-    }
-
-    .listaGaleria__itemGaleria {
-        width: 16em;
-    }
-} 
-
-@media screen and (max-width: 430px) {
-
-    .menu__listaLinks {
-        top: 16.4rem;
-    }
-    
-}
