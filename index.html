@@ -21,14 +21,16 @@
         <div class="container">
 
             <!-- IMAGEM -->
-            <figure class="img-box">
+            <figure class="cabecalho__imgBox">
 
                 <img src="assets/imagens/logo.webp" alt="Logo zBoomMusic">
+
+                <figcaption hidden>Logo zBoomMusic</figcaption>
 
             </figure>
 
             <!-- BARRA DE PESQUISA -->
-            <div class="input-box">
+            <form class="cabecalho__pesquisa">
 
                 <!-- INPUT BARRA DE PESQUISA -->
                 <input type="search" placeholder="Search...">
@@ -40,7 +42,7 @@
 
                 </button>
 
-            </div>
+            </form>
 
         </div>
 
@@ -54,7 +56,7 @@
             <!-- BOTÃO MENU MOBILE -->
             <h2>Menu</h2>
 
-            <button class="botao-menu"
+            <button class="menu__botaoMenu"
             aria-controls="menu"
             aria-label="botão abrir menu"
             aria-expanded="false"
@@ -65,34 +67,34 @@
             </button>
 
             <!-- LISTA DE LINKS -->
-            <ul class="lista-links" id="menu" role="menu">
+            <ul class="menu__listaLinks" id="menu" role="menu">
 
                 <!-- ITEM LINK -->
-                <li class="item-link">
+                <li class="listaLinks__item">
 
-                    <a href="#" id="item-background" rel="next">Home</a>
+                    <a href="#" class="listaLinks__item--fundoRosa" rel="next">Home</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="pages/blog.html" rel="next">Blog</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="pages/gallery.html" rel="next">Gallery</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="pages/about.html" rel="next">About</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="pages/contact.html" rel="next">Contact</a>
 
@@ -105,13 +107,15 @@
     </nav>
 
     <!-- SEÇÃO SLIDE -->
-    <section class="secao-slide">
+    <section class="secaoSlide">
 
         <div class="container">
 
-            <figure class="img-box">
+            <figure class="secaoSlide__imgBox">
 
                 <img src="assets/imagens/slide1.webp" alt="Imagem do Slide">
+
+                <figcaption hidden>Imagem do Slide</figcaption>
 
             </figure>
 
@@ -125,9 +129,9 @@
         <div class="container">
 
             <!-- SEÇÃO ANÚNCIOS -->
-            <section class="secao-anuncios">
+            <section class="secaoAnuncios">
 
-                <div class="anuncio">
+                <div class="secaoAnuncios__anuncio">
                     
                     <!-- TÍTULO -->
                     <h2>The White Night</h2>
@@ -139,7 +143,7 @@
 
                 </div>
 
-                <div class="anuncio">
+                <div class="secaoAnuncios__anuncio">
                     
                     <!-- TÍTULO -->
                     <h2>Tons of Fans</h2>
@@ -151,7 +155,7 @@
                     
                 </div>
 
-                <div class="anuncio">
+                <div class="secaoAnuncios__anuncio">
                     
                     <!-- TÍTULO -->
                     <h2>Best DJ's Ever</h2>
@@ -166,24 +170,25 @@
             </section>
 
             <!-- SEÇÃO DESTAQUE -->
-            <section class="secao-destaque">
+            <section class="secaoDestaque">
 
                 <!-- BLOG -->
-                <div class="blog">
+                <div class="secaoDestaque__blog">
 
                     <h2>Last Blog</h2>
 
                     <!-- ARTIGO -->
-                    <article class="artigo">
+                    <article class="blog__artigo">
 
                         <!-- IMAGEM -->
-                        <figure class="img-box">
+                        <figure class="blog__imgBox">
 
                             <img src="assets/imagens/img1.webp" alt="Imagem do Artigo">
+                            <figcaption>Imagem do Artigo</figcaption>
 
                         </figure>
 
-                        <div class="descricao">
+                        <div class="blog__descricao">
 
                             <!-- TÍTULO -->
                             <h3><a href="#">Dreaming With Us All Night</a></h3>
@@ -198,16 +203,16 @@
 
                     </article>
 
-                    <article class="artigo">
+                    <article class="blog__artigo">
 
                         <!-- IMAGEM -->
-                        <figure class="img-box">
+                        <figure class="blog__imgBox">
 
                             <img src="assets/imagens/img2.webp" alt="Imagem do Artigo">
 
                         </figure>
 
-                        <div class="descricao">
+                        <div class="blog__descricao">
 
                             <!-- TÍTULO -->
                             <h3><a href="#">Welcome To Our Great Site</a></h3>
@@ -228,16 +233,16 @@
 
                     </article>
 
-                    <article class="artigo">
+                    <article class="blog__artigo">
 
                         <!-- IMAGEM -->
-                        <figure class="img-box">
+                        <figure class="blog__imgBox">
 
                             <img src="assets/imagens/img3.webp" alt="Imagem do Artigo">
 
                         </figure>
 
-                        <div class="descricao">
+                        <div class="blog__descricao">
 
                             <!-- TÍTULO -->
                             <h3><a href="#">Stereosonic Is Back Just For You</a></h3>
@@ -252,16 +257,16 @@
 
                     </article>
 
-                    <article class="artigo">
+                    <article class="blog__artigo">
 
                         <!-- IMAGEM -->
-                        <figure class="img-box">
+                        <figure class="blog__imgBox">
 
                             <img src="assets/imagens/img4.webp" alt="Imagem do Artigo">
 
                         </figure>
 
-                        <div class="descricao">
+                        <div class="blog__descricao">
 
                             <!-- TÍTULO -->
                             <h3><a href="#">Club Galaxy White Night Show</a></h3>
@@ -279,14 +284,14 @@
                 </div>
 
                 <!-- ALBUMS E EVENTOS -->
-                <div class="albums-envents">
+                <div class="secaoDestaque__albumsEnvents">
 
                     <!-- ALBUMS -->
                     <h2>Latest Albums</h2>
 
-                    <div class="albums">
+                    <div class="albumsEnvents__albums">
 
-                        <figure class="img-box">
+                        <figure class="albums__imgBox">
 
                             <img src="assets/imagens/albums.webp" alt="Imagem de Albums">
 
@@ -297,43 +302,43 @@
                     <!-- EVENTS -->
                     <h2>Upcoming Events</h2>
 
-                    <div class="events">
+                    <div class="albumsEnvents__events">
 
                         <!-- LISTA DE EVENTOS -->
-                        <ul class="lista-events">
+                        <ul class="events__listaEvents">
 
                             <!-- ITEM EVENTOS -->
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Magic Island Ibiza</a>
 
                             </li>
 
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Bamboo Is Just For You</a>
 
                             </li>
 
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Every Hot Summer</a>
 
                             </li>
 
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Magic Island Ibiza</a>
 
                             </li>
 
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Bamboo Is Just For You</a>
 
                             </li>
 
-                            <li class="item-events">
+                            <li class="listaEvents__itemEvents">
 
                                 <a href="#">Every Hot Summer</a>
 
@@ -357,10 +362,10 @@
         <div class="container">
 
             <!-- LISTA DE SOBRE NÓS -->
-            <ul class="lista-sobre-nos">
+            <ul class="rodape__listaSobreNos">
 
                 <!-- ITEM -->
-                <li class="item" id="item-1">
+                <li class="listaSobreNos__item listaSobreNos__item--aboutUs">
 
                     <!-- TÍTULO -->
                     <h2>About Us</h2>
@@ -372,39 +377,39 @@
 
                 </li>
 
-                <li class="item" id="item-2">
+                <li class="listaSobreNos__item listaSobreNos__item--lastPost">
 
                     <!-- TÍTULO -->
                     <h2>Last Post</h2>
 
                     <!-- LISTA DE POST -->
-                    <ul class="lista-post">
+                    <ul class="item--lastPost__listaPost">
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Magic Island Ibiza</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Bamboo Is Just For You</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Every Hot Summer</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Magic Island Ibiza</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Bamboo Is Just For You</a>
                             
@@ -414,7 +419,7 @@
 
                 </li>
 
-                <li class="item" id="item-3">
+                <li class="listaSobreNos__item listaSobreNos__item--hotAlbums">
 
                     <!-- TÍTULO -->
                     <h2>Hot Albums</h2>
@@ -438,33 +443,33 @@
 
                 </li>
 
-                <li class="item" id="item-4">
+                <li class="listaSobreNos__item" id="listaSobreNos__item--contactUs">
 
                     <h2>Contact Us</h2>
 
                     <!-- LISTA DE CONTATO -->
-                    <ul class="lista-contato">
+                    <ul class="item--contactUs__listaContato">
 
                         <!-- ITEM CONTATO -->
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Address : 0123 Some Street. Country</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Phone : 000.000.000.000</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Email : admin@zerotheme.com</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Website : www.zerotheme.com</a>
 
@@ -481,7 +486,7 @@
     </footer>
 
     <!-- FOOTER 2 -->
-    <footer class="creditos">
+    <footer class="rodapeCreditos">
 
         <p>Site replicado por <a href="https://github.com/kauasilvandrade/" target="_blank" rel="external">Kauã</a></p>
 

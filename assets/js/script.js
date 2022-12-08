@@ -1,6 +1,6 @@
-const btnMenu = document.querySelector('.botao-menu');
+const btnMenu = document.querySelector('.menu__botaoMenu');
 const hamburguer = document.querySelector('.hamburguer');
-const menu = document.querySelector('.lista-links');
+const menu = document.querySelector('.menu__listaLinks');
 
 // FUNCÃO PARA QUANDO MUDAR DE TELA O MENU FECHAR
 

@@ -27,50 +27,55 @@ body, html {
 }
 
 /* SEÇÃO DESTAQUE */
-.secao-destaque {}
+.secaoDestaque {}
 
 /* FORMULÁRIO */
-.secao-destaque .formulario {
+.descricao__formulario {
     background-color: var(--cor5);
     width: 40rem;
-    padding-top: 1rem;
-}
-
-.secao-destaque .formulario form {
+    margin: 0;
     padding: 1.2rem;
+    padding-top: 5rem;
 }
 
-form .grupo-inputs p {
+.grupoInputs__inputBox input {
+    outline: none;
+    border: 2px solid #999999;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+.formulario__grupoInputs p {
     margin-bottom: 0.6rem;
 }
 
 /* FIND US */
-.secao-destaque .find-us {}
+.secaoDestaque__findUs {}
 
-.secao-destaque .find-us h2 {}
+.secaoDestaque__findUs h2 {}
 
-.secao-destaque .find-us .card-find-us {
+.findUs__card {
     margin-bottom: 1.5rem;
     background-color: var(--cor5);
     padding: 1rem;
 }
 
-.secao-destaque .find-us .card-find-us .img-box {}
+.card__imgBox {}
 
-.secao-destaque .find-us .card-find-us .img-box img {
+.card__imgBox img {
     width: 100%;
 }
 
-.secao-destaque .find-us .card-find-us .enderecos {
+.card__listaEenderecos {
     list-style: none;
     color: var(--cor0);
 }
 
-.secao-destaque .find-us .card-find-us .enderecos .item-enderecos {
+.listaEnderecos__item {
     margin-bottom: .5rem;
 }
 
-.secao-destaque .find-us .card-find-us .enderecos .item-enderecos p {
+.listaEnderecos__item p {
     color: #959595;
     font-size: 0.9rem;
 }

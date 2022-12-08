@@ -23,26 +23,28 @@
         <div class="container">
 
             <!-- IMAGEM -->
-            <figure class="img-box">
+            <figure class="cabecalho__imgBox">
 
                 <img src="../assets/imagens/logo.webp" alt="Logo zBoomMusic">
+
+                <figcaption hidden>Logo zBoomMusic</figcaption>
 
             </figure>
 
             <!-- BARRA DE PESQUISA -->
-            <div class="input-box">
+            <form class="cabecalho__pesquisa">
 
                 <!-- INPUT BARRA DE PESQUISA -->
                 <input type="search" placeholder="Search...">
 
                 <!-- BOTÃO DO INPUT -->
-                <button>
+                <button type="submit">
 
                     <img src="../assets/imagens/button-search.png" alt="Imagem de ícone do botão">
 
                 </button>
 
-            </div>
+            </form>
 
         </div>
 
@@ -56,7 +58,7 @@
             <!-- BOTÃO MENU MOBILE -->
             <h2>Menu</h2>
 
-            <button class="botao-menu"
+            <button class="menu__botaoMenu"
             aria-controls="menu"
             aria-label="botão abrir menu"
             aria-expanded="false"
@@ -67,36 +69,36 @@
             </button>
 
             <!-- LISTA DE LINKS -->
-            <ul class="lista-links" id="menu" role="menu">
+            <ul class="menu__listaLinks" id="menu" role="menu">
 
                 <!-- ITEM LINK -->
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="../index.html" rel="next">Home</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="blog.html" rel="next">Blog</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="gallery.html" rel="next">Gallery</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
                     <a href="about.html" rel="next">About</a>
 
                 </li>
 
-                <li class="item-link">
+                <li class="listaLinks__item">
 
-                    <a href="#" id="item-background"  rel="next">Contact</a>
+                    <a href="contact.html" class="listaLinks__item--fundoRosa" rel="next">Contact</a>
 
                 </li>
 
@@ -106,131 +108,128 @@
 
     </nav>
 
-        <!-- CONTEÚDO PRINCIPAL -->
-        <main class="conteudo">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="conteudo">
 
-            <div class="container">
-    
-                <!-- SEÇÃO DESTAQUE -->
-                <section class="secao-destaque">
+        <div class="container">
 
-                    <!-- FORMULÁRIO -->
-                    <div class="formulario">
-                        <form action="#" method="post" autocomplete="on">
+            <!-- SEÇÃO DESTAQUE -->
+            <section class="secaoDestaque">
 
-                            <div class="grupo-inputs">
+                <!-- FORMULÁRIO -->
+                <form action="#" method="post" autocomplete="on" class="descricao__formulario">
 
-                                <p>Your email address will not be published. Required fields are marked</p>
+                    <div class="formulario__grupoInputs">
 
-                                <!-- INPUTS -->
-                                <div class="input-box">
+                        <p>Your email address will not be published. Required fields are marked</p>
 
-                                    <input type="text" id="name" name="name" required minlength="5" maxlength="20" autocomplete="username">
+                        <!-- INPUTS -->
+                        <div class="grupoInputs__inputBox">
 
-                                    <label for="name">
+                            <input type="text" id="name" name="name" required minlength="5" maxlength="20" autocomplete="username">
 
-                                        Name
-                            
-                                    </label>
+                            <label for="name">
 
-                                </div>
-
-                                <div class="input-box">
-
-                                    <input type="email" id="email" name="email" required autocomplete="email">
-
-                                    <label for="email">
-
-                                        Email
-                            
-                                    </label>
-
-                                </div>
-
-                                <div class="input-box">
-
-                                    <input type="url" id="url" name="url" required autocomplete="url">
-
-                                    <label for="url">
-
-                                        Website
-                            
-                                    </label>
-
-                                </div>
-
-                                <div class="text-are-box">
-
-                                    <textarea name="text-area" id="text-are" cols="30" rows="10"></textarea>
-
-                                </div>
-
-                            </div>
-
-                            <!-- BOTÃO -->
-                            <div class="botao-box">
-
-                                <input type="submit" value="Submit">
-
-                            </div>
-
-                        </form>
-                    </div>
-    
-                    <!-- FIND US -->
-                    <div class="find-us">
-    
-                        <!-- ALBUMS -->
-                        <h2>Find Us</h2>
-    
-                        <div class="card-find-us">
-    
-                            <!-- IMAGEM -->
-                            <figure class="img-box">
-    
-                                <img src="../assets/imagens/map.webp" alt="Imagem de Albums">
-    
-                            </figure>
-
-                            <!-- ENDEREÇOS -->
-                            <ul class="enderecos">
-
-                                <!-- ITEM -->
-                                <li class="item-enderecos"><p>Petru Zadnipru 15/2 Chisinau 2044,</p></li>
-
-                                <li class="item-enderecos"><p> Republic of Moldova</p></li>
-
-                                <li class="item-enderecos"><p>Freephone : +1 800 445 7880</p></li>
-
-                                <li class="item-enderecos"><p>Telephone : +1 800 995 6880</p></li>
-
-                                <li class="item-enderecos"><p>Fax : +1 800 465 1990</p></li>
-
-                                <li class="item-enderecos"><p>Email : zerotheme@demolink.com</p></li>
-
-                            </ul>
+                                Name
+                    
+                            </label>
 
                         </div>
-    
-                    </div>
-    
-                </section>
-    
-            </div>
-    
-        </main>
-    
 
+                        <div class="grupoInputs__inputBox">
+
+                            <input type="email" id="email" name="email" required autocomplete="email">
+
+                            <label for="email">
+
+                                Email
+                    
+                            </label>
+
+                        </div>
+
+                        <div class="grupoInputs__inputBox">
+
+                            <input type="url" id="url" name="url" required autocomplete="url">
+
+                            <label for="url">
+
+                                Website
+                    
+                            </label>
+
+                        </div>
+
+                        <div class="grupoInputs__textAreBox">
+
+                            <textarea name="text-area" id="text-are" cols="30" rows="10" required></textarea>
+
+                        </div>
+
+                    </div>
+
+                    <!-- BOTÃO -->
+                    <div class="formulario__botaoBox">
+
+                        <input type="submit" value="Submit">
+
+                    </div>
+
+                </form>
+
+                <!-- FIND US -->
+                <div class="secaoDestaque__findUs">
+
+                    <!-- ALBUMS -->
+                    <h2>Find Us</h2>
+
+                    <div class="findUs__card">
+
+                        <!-- IMAGEM -->
+                        <figure class="card__imgBox">
+
+                            <img src="../assets/imagens/map.webp" alt="Imagem de Albums">
+
+                        </figure>
+
+                        <!-- ENDEREÇOS -->
+                        <ul class="card__listaEenderecos">
+
+                            <!-- ITEM -->
+                            <li class="listaEnderecos__item"><p>Petru Zadnipru 15/2 Chisinau 2044,</p></li>
+
+                            <li class="listaEnderecos__item"><p> Republic of Moldova</p></li>
+
+                            <li class="listaEnderecos__item"><p>Freephone : +1 800 445 7880</p></li>
+
+                            <li class="listaEnderecos__item"><p>Telephone : +1 800 995 6880</p></li>
+
+                            <li class="listaEnderecos__item"><p>Fax : +1 800 465 1990</p></li>
+
+                            <li class="listaEnderecos__item"><p>Email : zerotheme@demolink.com</p></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+    
     <!-- RODAPÉ -->
     <footer class="rodape">
 
         <div class="container">
 
             <!-- LISTA DE SOBRE NÓS -->
-            <ul class="lista-sobre-nos">
+            <ul class="rodape__listaSobreNos">
 
                 <!-- ITEM -->
-                <li class="item" id="item-1">
+                <li class="listaSobreNos__item listaSobreNos__item--aboutUs">
 
                     <!-- TÍTULO -->
                     <h2>About Us</h2>
@@ -242,39 +241,39 @@
 
                 </li>
 
-                <li class="item" id="item-2">
+                <li class="listaSobreNos__item listaSobreNos__item--lastPost">
 
                     <!-- TÍTULO -->
                     <h2>Last Post</h2>
 
                     <!-- LISTA DE POST -->
-                    <ul class="lista-post">
+                    <ul class="item--lastPost__listaPost">
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Magic Island Ibiza</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Bamboo Is Just For You</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Every Hot Summer</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Magic Island Ibiza</a>
 
                         </li>
 
-                        <li class="item-post">
+                        <li class="listaPost__itemPost">
 
                             <a href="#">Bamboo Is Just For You</a>
                             
@@ -284,7 +283,7 @@
 
                 </li>
 
-                <li class="item" id="item-3">
+                <li class="listaSobreNos__item listaSobreNos__item--hotAlbums">
 
                     <!-- TÍTULO -->
                     <h2>Hot Albums</h2>
@@ -308,33 +307,33 @@
 
                 </li>
 
-                <li class="item" id="item-4">
+                <li class="listaSobreNos__item" id="listaSobreNos__item--contactUs">
 
                     <h2>Contact Us</h2>
 
                     <!-- LISTA DE CONTATO -->
-                    <ul class="lista-contato">
+                    <ul class="item--contactUs__listaContato">
 
                         <!-- ITEM CONTATO -->
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Address : 0123 Some Street. Country</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Phone : 000.000.000.000</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Email : admin@zerotheme.com</a>
 
                         </li>
 
-                        <li class="item-contato">
+                        <li class="listaContato__itemContato">
 
                             <a href="#">Website : www.zerotheme.com</a>
 
@@ -351,7 +350,7 @@
     </footer>
 
     <!-- FOOTER 2 -->
-    <footer class="creditos">
+    <footer class="rodapeCreditos">
 
         <p>Site replicado por <a href="https://github.com/kauasilvandrade/" target="_blank" rel="external">Kauã</a></p>
 

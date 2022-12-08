@@ -27,37 +27,37 @@ body, html {
 }
 
 /* FORMULÁRIO */
-form {
+.descricao__formulario {
     margin-top: 2.5rem;
 }
 
-form .grupo-inputs {}
+.formulario__grupoInputs {}
 
-form .grupo-inputs p {
+.formulario__grupoInputs p {
     color: #959595;
     font-weight: bold;
     font-size: 0.9em;
 }
 
-form .grupo-inputs .input-box {
+.grupoInputs__inputBox {
     margin-bottom: 1rem;
 }
 
-form .grupo-inputs .input-box input {
+.grupoInputs__inputBox input {
     outline: none;
     border: 2px solid #999999;
-    padding: 0.5rem 6rem 0.5rem 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
 }
 
-form .grupo-inputs .input-box label {
+.grupoInputs__inputBox label {
     color: #959595;
     font-weight: bold;
     font-size: 0.9em;
 }
 
-form .grupo-inputs .text-are-box {}
+.grupoInputs__textAreBox {}
 
-form .grupo-inputs .text-are-box textarea {
+.grupoInputs__textAreBox textarea {
     width: 100%;
     outline: none;
     padding: 0.5rem 0 0 0.5rem;
@@ -65,34 +65,41 @@ form .grupo-inputs .text-are-box textarea {
     border: 2px solid #999999;
 }
 
-form .botao-box {
+.formulario__botaoBox {
     display: flex;
     justify-content: flex-end;
 }
 
-form .botao-box input {
+.formulario__botaoBox input {
     outline: none;
     padding: 0.5rem 1.8rem;
     border: 2px solid #999999;
     background-image: linear-gradient(to top, #efefef, #ddd);
+    cursor: pointer;
 }
 
-form .botao-box input:hover {
+.formulario__botaoBox input:hover {
     background-image: linear-gradient(to top, #eee, #ccc);
 }
 
 @media screen and (max-width: 768px) {
-    .menu .lista-links {
+
+    /* MENU */
+    .menu__listaLinks {
         top: 17.4rem;
     }
+
 }
 
 @media screen and (max-width: 430px) {
-    .menu .lista-links {
+
+    /* MENU */
+    .menu__listaLinks {
         top: 16.4rem;
     }
 
-    form .grupo-inputs .input-box input {
+    /* GRUPO INPUTS */
+    .grupoInputs__inputBox input {
         width: 100%;
     }
 }
